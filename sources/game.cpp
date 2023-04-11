@@ -191,7 +191,7 @@ void Game::printWiner()
     }
     else if (this->winner == "Tie")
     {
-        throw string("No winner. It's a tie");
+        cout << "No winner. It's a tie" << endl;
     }
     else
     {
